@@ -1,6 +1,8 @@
 AS7343 CircuitPython Library
 =============================
 
+7/21/25 After a lot of work and digging I find that the problem with F4 and possibly two other channels has not been fixed. The Micropython library does not fix this problem. There is a claim that it has been fixed in Circuitpython, but that has not been verified.It has something to do with the SMUX. I cannot fix this. I WILL LEAVE THIS REPO ACTIVE BUT IT IS UNLIKELY THAT IT WILL BE FIXED.
+
 7/20/25 THERE IS A PROBLEM WITH F4 THAT I AM LOOKING INTO. I'D RECOMMEND CHECKING BACK IN A FEW DAYS
 
 A CircuitPython driver for the AMS AS7343 14-channel spectral sensor. This device provides high-resolution spectral measurements across the visible and near-infrared spectrum, making it ideal for:
